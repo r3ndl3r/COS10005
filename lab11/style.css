@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    width: 720px;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #dddddd;
+}

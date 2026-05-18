@@ -1,0 +1,17 @@
+[
+ {
+   "teamName": "Lakers",
+   "location": "Los Angeles",
+   "starPlayer": "Kobe Bryant"
+ },
+ {
+   "teamName": "Warriors",
+   "location": "Golden State",
+   "starPlayer": "Stephen Curry"
+ },
+ {
+   "teamName": "Cavaliers",
+   "location": "Cleveland",
+   "starPlayer": "LeBron James"
+ }
+]
