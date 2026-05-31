@@ -1,0 +1,239 @@
+/* /css/desktop.css */
+
+/* 
+ * COS10005 Assignment 2 - Desktop Styles
+ * Author: Rob (103699388)
+ */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #2c3e50;
+    padding: 20px 0; /* space between page border and header/footer containers */
+    background: linear-gradient(90deg,rgba(5, 25, 35, 1) 0%, rgba(30, 60, 110, 1) 100%, rgba(3, 6, 35, 1) 100%); /* Used https://cssgradient.io/ to generate */
+}
+
+p {
+    margin-bottom: 15px; /* space below paragraphs */
+}
+
+h1, h2, h3 {
+    color: #1a2a3a;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#main-header .container {
+    margin-bottom: 30px; /* space below the header */
+}
+
+#main-header img {
+    border: 0;
+    width: min(380px, 85vw);
+    height: auto;
+    margin-bottom: 12px;
+}
+
+#routine-table {
+    border: 2px solid Black;
+    box-shadow: 5px 5px 10px Grey;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    background-color: #7a8b9c;
+    padding: 20px;
+    border: 2px solid #5b748c;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.highlight {
+    color: DarkBlue;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #4a637a;
+    padding: 8px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #c8d6e5;
+    text-decoration: none;
+    font-size: 1.1em;
+    display: inline-block;
+    padding: 2px 8px;
+    border: 1px solid #2c3e50;
+    border-radius: 6px;
+    background-color: #3d566e;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+nav ul li a:hover {
+    background-color: #5784c7;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Highlight active navigation link */
+nav ul li a.active {
+    background-color: #c8d6e5;
+    color: #1a2a3a;
+}
+
+/* box model & visual formatting */
+main {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-image: none;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid Navy;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* liquid page layout (floats) */
+article {
+    width: 65%;
+    float: left;
+    padding: 10px;
+}
+
+aside {
+    width: 30%;
+    float: right;
+    background-color: #4a637a;
+    color: #d6e1ec;
+    padding: 15px;
+    border: 1px solid #2c3e50;
+    border-radius: 8px;
+}
+
+aside h3 {
+    color: #edf4fb;
+}
+
+aside ul {
+    padding-left: 20px;
+}
+
+aside li {
+    margin-bottom: 10px;
+}
+
+/* clearfix for the container */
+main::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid Grey;
+    text-align: left;
+}
+
+th {
+    background-color: Navy;
+    color: White;
+}
+
+form {
+    border: 1px solid Navy;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: Navy;
+    color: White;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.1);
+}
+
+@keyframes pageLoad {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: pageLoad 1.5s ease-in;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer .container {
+    display: grid;
+    grid-template-columns: 90px 1fr 90px;
+    align-items: center;
+}
+
+/* stop 15px margin from breaking vertical centering inside container padding */
+footer .container p {
+    margin-bottom: 0; 
+    grid-column: 2;
+}
+
+.validator-badge {
+    grid-column: 3;
+    width: 90px;
+    border: 0;
+    margin: 0;
+}

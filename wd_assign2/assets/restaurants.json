@@ -1,0 +1,118 @@
+{
+  "restaurants": [
+    {
+      "id": "harbour-lantern",
+      "name": "Harbour Lantern",
+      "cuisine": "Modern Australian",
+      "dietary": ["None", "Vegetarian", "Gluten Free"],
+      "purposes": ["Family", "Business", "Tourist"],
+      "budget": "Premium",
+      "priceRange": "$45-$65 per person",
+      "averagePrice": 55,
+      "deposit": 25,
+      "image": "images/harbour-lantern.svg",
+      "alt": "Modern Australian seafood dish served at Harbour Lantern",
+      "signatureDishes": [
+        {"name": "Barramundi with lemon myrtle butter", "price": 34},
+        {"name": "Chargrilled lamb shoulder",           "price": 38},
+        {"name": "Native herb pavlova",                 "price": 16}
+      ],
+      "description": "Harbour Lantern offers a relaxed modern Australian dining experience with a focus on fresh seafood, seasonal produce, and familiar flavours presented with care. The menu suits guests who want something polished without feeling overly formal. It is a good choice for family celebrations, visitors wanting local flavours, or small business dinners where the atmosphere needs to feel calm, comfortable, and welcoming."
+    },
+    {
+      "id": "miso-moon",
+      "name": "Miso Moon",
+      "cuisine": "Japanese",
+      "dietary": ["None", "Vegetarian"],
+      "purposes": ["Date", "Business", "Tourist"],
+      "budget": "Mid Range",
+      "priceRange": "$30-$50 per person",
+      "averagePrice": 40,
+      "deposit": 20,
+      "image": "images/miso-moon.svg",
+      "alt": "Japanese ramen and side dishes at Miso Moon",
+      "signatureDishes": [
+        {"name": "Tonkotsu ramen",        "price": 22},
+        {"name": "Vegetable tempura don", "price": 20},
+        {"name": "Matcha cheesecake",     "price": 12}
+      ],
+      "description": "Miso Moon is a warm Japanese restaurant built around ramen, rice bowls, and shareable starters. It works well for diners who want a balanced meal in a quieter setting, with enough variety for both simple and slightly more adventurous choices. The space is suited to casual dates, business lunches, and visitors looking for a dependable Japanese option near the city."
+    },
+    {
+      "id": "olive-courtyard",
+      "name": "Olive Courtyard",
+      "cuisine": "Mediterranean",
+      "dietary": ["None", "Vegetarian", "Vegan", "Halal"],
+      "purposes": ["Family", "Date", "Tourist"],
+      "budget": "Mid Range",
+      "priceRange": "$28-$48 per person",
+      "averagePrice": 38,
+      "deposit": 18,
+      "image": "images/olive-courtyard.svg",
+      "alt": "Mediterranean mezze platter at Olive Courtyard",
+      "signatureDishes": [
+        {"name": "Falafel mezze plate",        "price": 24},
+        {"name": "Lamb kofta with couscous",   "price": 29},
+        {"name": "Orange blossom panna cotta", "price": 13}
+      ],
+      "description": "Olive Courtyard serves Mediterranean food designed for sharing, with colourful plates, grilled dishes, and plenty of vegetarian-friendly choices. The menu is flexible enough for families, couples, and mixed groups with different dietary needs. Its relaxed courtyard-style atmosphere makes it a strong option for diners who want generous food, lighter flavours, and a social meal that does not feel rushed."
+    },
+    {
+      "id": "spice-trail",
+      "name": "Spice Trail",
+      "cuisine": "Indian",
+      "dietary": ["None", "Vegetarian", "Vegan", "Halal", "Gluten Free"],
+      "purposes": ["Family", "Business", "Tourist"],
+      "budget": "Budget",
+      "priceRange": "$22-$38 per person",
+      "averagePrice": 30,
+      "deposit": 15,
+      "image": "images/spice-trail.svg",
+      "alt": "Indian curries and naan served at Spice Trail",
+      "signatureDishes": [
+        {"name": "Butter chicken with basmati rice", "price": 23},
+        {"name": "Chana masala",                     "price": 19},
+        {"name": "Garlic naan basket",               "price":  9}
+      ],
+      "description": "Spice Trail is a lively Indian restaurant offering rich curries, grilled dishes, breads, and plant-based choices. It is especially suitable for groups because the menu is easy to share and includes a range of spice levels. The restaurant is a practical choice for families, students, and visitors who want strong flavours, generous portions, and good value without sacrificing variety."
+    },
+    {
+      "id": "green-fork",
+      "name": "Green Fork",
+      "cuisine": "Plant-Based Cafe",
+      "dietary": ["Vegetarian", "Vegan", "Gluten Free"],
+      "purposes": ["Family", "Date", "Business"],
+      "budget": "Budget",
+      "priceRange": "$18-$32 per person",
+      "averagePrice": 25,
+      "deposit": 10,
+      "image": "images/green-fork.svg",
+      "alt": "Plant-based salad bowl and smoothie at Green Fork",
+      "signatureDishes": [
+        {"name": "Roasted pumpkin nourish bowl", "price": 19},
+        {"name": "Mushroom and lentil burger",   "price": 21},
+        {"name": "Coconut chia pudding",         "price": 11}
+      ],
+      "description": "Green Fork focuses on plant-based meals, fresh ingredients, and lighter dining options. The menu is designed for vegans, vegetarians, and anyone wanting a healthier meal without giving up flavour. It is a friendly option for casual lunches, relaxed dates, and small work catch-ups where guests may have different dietary preferences or want a quick but satisfying meal."
+    },
+    {
+      "id": "ember-room",
+      "name": "Ember Room",
+      "cuisine": "Steakhouse",
+      "dietary": ["None", "Gluten Free"],
+      "purposes": ["Date", "Business"],
+      "budget": "Premium",
+      "priceRange": "$55-$85 per person",
+      "averagePrice": 70,
+      "deposit": 30,
+      "image": "images/ember-room.svg",
+      "alt": "Steakhouse main course served at Ember Room",
+      "signatureDishes": [
+        {"name": "Dry-aged ribeye with pepper sauce",    "price": 48},
+        {"name": "Charred broccolini and potato gratin", "price": 18},
+        {"name": "Dark chocolate tart",                  "price": 15}
+      ],
+      "description": "Ember Room is a premium steakhouse with a darker, more refined dining room suited to special occasions and professional meals. The menu centres on grilled meats, rich sides, and classic desserts, with some gluten-free options available. It is best for diners looking for a polished night out, a business dinner, or a date where the setting should feel more formal."
+    }
+  ]
+}

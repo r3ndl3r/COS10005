@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Ember Room steak dinner</title>
+  <desc id="desc">A stylised steakhouse plate with steak, sides, grill marks, and ember lighting.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a1e1b"/>
+      <stop offset="1" stop-color="#111820"/>
+    </linearGradient>
+    <radialGradient id="ember" cx="0.36" cy="0.28" r="0.55">
+      <stop offset="0" stop-color="#f48642" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#f48642" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="640" height="420" rx="32" fill="url(#bg)"/>
+  <rect width="640" height="420" rx="32" fill="url(#ember)"/>
+  <circle cx="111" cy="95" r="6" fill="#f7a35b" opacity="0.8"/>
+  <circle cx="508" cy="127" r="5" fill="#f7a35b" opacity="0.72"/>
+  <circle cx="456" cy="76" r="8" fill="#f7a35b" opacity="0.55"/>
+  <ellipse cx="320" cy="246" rx="198" ry="101" fill="#f6efe7" filter="url(#shadow)"/>
+  <ellipse cx="320" cy="246" rx="146" ry="72" fill="#d8c9bc"/>
+  <path d="M220 225c27-55 109-78 179-54 51 17 70 58 39 91-39 41-143 49-199 11-19-13-26-29-19-48z" fill="#8c372b"/>
+  <path d="M264 203l126 66M301 186l128 66M229 242l117 61" stroke="#3d1815" stroke-width="8" stroke-linecap="round" opacity="0.58"/>
+  <path d="M234 219c35-36 91-50 151-34" fill="none" stroke="#d98955" stroke-width="9" stroke-linecap="round" opacity="0.75"/>
+  <circle cx="447" cy="264" r="24" fill="#f1d18a"/>
+  <circle cx="479" cy="231" r="20" fill="#76a95c"/>
+  <path d="M187 280c27-19 60-23 98-11" fill="none" stroke="#76a95c" stroke-width="13" stroke-linecap="round"/>
+  <path d="M190 169c0 31-34 34-34 66M191 169c22 33-7 51 15 80" fill="none" stroke="#f48642" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+  <text x="48" y="372" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Ember Room</text>
+</svg>

@@ -1,0 +1,10 @@
+{
+    "links": {
+        "Home": "index.html",
+        "Restaurants": "restaurants.html",
+        "Recommend": "recommend.html",
+        "Reservation": "reservation.html",
+        "Bill": "bill.html",
+        "Register": "register.html"
+    }
+}

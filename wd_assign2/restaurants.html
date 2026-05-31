@@ -1,0 +1,57 @@
+<!-- /restaurants.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurants | Rob's Table</title>
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/restaurants-list.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="js/content.js" defer></script>
+    <script src="js/restaurants-list.js" defer></script>
+</head>
+<body>
+    <header id="main-header">
+        <div id="header-container" class="container fade-in"><!-- Injected via /js/content.js --></div>
+    </header>
+
+    <main class="container fade-in">
+        <article>
+            <h1>Explore Our Restaurants</h1>
+            <section>
+                <h2>How It Works</h2>
+                <p>
+                    Explore the restaurants available through Rob's Table. Each listing will include the restaurant name,
+                    cuisine type, signature dishes, reservation deposit, average price range, and a short description to
+                    help users compare their options.
+                </p>
+
+                <p>
+                    This page is designed to give diners a clear overview before they move on to recommendations or make
+                    a reservation.
+                </p>
+            </section>
+
+            <section>
+                <h2>Restaurant Listings</h2>
+                <div id="restaurant-list" class="restaurant-grid"><!-- Injected via /js/restaurants-list.js --></div>
+            </section>
+        </article>
+
+        <aside>
+            <h3>Listing Guide</h3>
+            <ul>
+                <li>Compare cuisine types and price ranges</li>
+                <li>Check the deposit amount before booking</li>
+                <li>Use recommendations if you are unsure what to choose</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <div id="footer-container" class="container fade-in"><!-- Injected via /js/content.js --></div>
+    </footer>
+</body>
+</html>

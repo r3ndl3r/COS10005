@@ -1,0 +1,51 @@
+/* /css/reservation.css */
+
+/* 
+ * COS10005 Assignment 2 - Reservation Form CSS
+ * Author: Rob (103699388)
+ */
+
+.error-summary {
+    color: #7a1515;
+    background-color: #f7d7d7;
+    border: 1px solid #b64747;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: none;
+}
+
+.error-summary ul {
+    margin-left: 20px;
+}
+
+fieldset {
+    margin-top: 15px;
+    padding: 12px;
+    border: 1px solid navy;
+    border-radius: 8px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.radio-label,
+.checkbox-label {
+    display: block;
+    margin-top: 8px;
+}
+
+.radio-label input,
+.checkbox-label input {
+    width: auto;
+    margin-right: 6px;
+}
+
+.hidden {
+    display: none;
+}
+
+#deposit-amount {
+    background-color: #e6edf4;
+}

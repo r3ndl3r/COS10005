@@ -1,0 +1,90 @@
+/* /style/mobile.css */
+
+/* 
+ * COS10005 Assignment 2 - Mobile Styles
+ * Author: Rob (103699388)
+ * Simple layout for mobile devices.
+ */
+
+@media screen and (max-width: 768px) {
+    /* Small adjustments to font sizes */
+    body {
+        font-size: 0.8em;
+    }
+
+    /* Stack article and aside vertically */
+    article, aside {
+        width: 100%;
+        float: none;
+        margin: 10px 0;
+    }
+
+    /* Adjust the container for small screens */
+    .container  {
+        width: 95%;
+        padding: 10px;
+    }
+
+    /* Reduce padding on main content areas for mobile */
+    main.container {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    article {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    section {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Reduce padding on restaurant cards for mobile */
+    #restaurant-list .restaurant-card {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    /* Keep navigation in one horizontal row on mobile */
+    #navbar ul {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 4px;
+        scrollbar-width: none;
+    }
+
+    /* Hide scrollbar for WebKit browsers */
+    #navbar ul::-webkit-scrollbar {
+        display: none;
+    }
+
+    #navbar ul li {
+        display: block;
+        margin: 0;
+        flex: 0 0 auto;
+    }
+
+    #navbar ul li a {
+        white-space: nowrap;
+    }
+
+    #main-header img {
+        width: min(300px, 90vw);
+    }
+
+    /* Put footer content on two rows on mobile */
+    footer .container {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    /* Center footer content on mobile */
+    footer .container p,
+    footer .container a {
+        grid-column: 1;
+        justify-self: center;
+    }
+}

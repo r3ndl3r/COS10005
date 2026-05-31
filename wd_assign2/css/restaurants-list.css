@@ -1,0 +1,76 @@
+/* /css/restaurants-list.css */
+
+/* 
+ * COS10005 Assignment 2 - Restaurant List Page CSS
+ * Author: Rob (103699388)
+ */
+
+.restaurant-card {
+    margin-bottom: 25px;
+    padding: 18px;
+    background-color: #5f7285;
+    border: 2px solid #3d566e;
+    border-radius: 10px;
+}
+
+.restaurant-card img {
+    width: 100%;
+    max-width: 320px;
+    border: 2px solid #2c3e50;
+    border-radius: 16px;
+}
+
+.restaurant-card h3,
+.restaurant-card h4 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.restaurant-card ul {
+    margin: 0 0 15px 25px;
+}
+
+.card-label {
+    font-weight: bold;
+}
+
+.filter-bar {
+    display: flex;
+    gap: 12px;
+    align-items: end;
+    border: 1px solid #3d566e;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.filter-field {
+    flex: 1;
+}
+
+.filter-field label {
+    margin-top: 0;
+}
+
+.filter-field select {
+    width: 100%;
+}
+
+.filter-bar button {
+    padding: 8px 12px;
+    background-color: navy;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* make the link shrink to button width so auto margins can centre it */
+.button-link {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 8px 12px;
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}

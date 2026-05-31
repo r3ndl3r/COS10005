@@ -1,0 +1,97 @@
+<!-- /recommend.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendations | Rob's Table</title>
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/restaurants-list.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="js/content.js" defer></script>
+    <script src="js/restaurants-recommend.js" defer></script>
+</head>
+<body>
+    <header id="main-header">
+        <div id="header-container" class="container fade-in"><!-- Injected via /js/content.js --></div>
+    </header>
+
+    <main class="container fade-in">
+        <article>
+            <h1>Find a Restaurant Match</h1>
+            <section>
+                <h2>How It Works</h2>
+                <p>
+                    Not sure where to book? Use this page to narrow down the restaurant list based on what matters most
+                    for your meal. You will be able to filter by dietary preference, budget, and dining purpose to find
+                    restaurants that better match your plans.
+                </p>
+
+                <p>
+                    Matching restaurants will appear below. From there, you can compare the options and continue to the
+                    reservation page with your selected restaurant.
+                </p>
+            </section>
+
+            <section>
+                <h2>Filter Your Recommendations</h2>
+                <form id="recommend-filter" class="filter-bar">
+                    <div class="filter-field">
+                        <label for="dietary-filter">Dietary preference</label>
+                        <select id="dietary-filter">
+                            <option value="">Any</option>
+                            <option value="Vegan">Vegan</option>
+                            <option value="Vegetarian">Vegetarian</option>
+                            <option value="Halal">Halal</option>
+                            <option value="Gluten Free">Gluten Free</option>
+                            <option value="None">None</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-field">
+                        <label for="budget-filter">Budget</label>
+                        <select id="budget-filter">
+                            <option value="">Any</option>
+                            <option value="Budget">Budget</option>
+                            <option value="Mid Range">Mid Range</option>
+                            <option value="Premium">Premium</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-field">
+                        <label for="purpose-filter">Dining purpose</label>
+                        <select id="purpose-filter">
+                            <option value="">Any</option>
+                            <option value="Family">Family</option>
+                            <option value="Date">Date</option>
+                            <option value="Business">Business</option>
+                            <option value="Tourist">Tourist</option>
+                        </select>
+                    </div>
+
+                    <button type="reset">Clear Filters</button>
+                </form>
+            </section>
+
+            <section>
+                <h2>Recommended Restaurants</h2>
+                <div id="restaurant-list" class="restaurant-grid"><!-- Injected via /js/restaurants-recommend.js --></div>
+            </section>
+        </article>
+
+        <aside>
+            <h3>Recommendation Tips</h3>
+            <ul>
+                <li>Choose dietary needs first if they are important</li>
+                <li>Use budget to avoid unsuitable price ranges</li>
+                <li>Select a dining purpose to get more useful matches</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <div id="footer-container" class="container fade-in"><!-- Injected via /js/content.js --></div>
+    </footer>
+</body>
+</html>
