@@ -38,7 +38,7 @@ Website Structure
 └── restaurants.html                        # Displays restaurant listings.
 
 GitHub Repository
-https://github.com/r3ndl3r/COS10005/wd_assign2/
+https://github.com/r3ndl3r/COS10005/tree/main/wd_assign2
 
 Live Sites
 https://r3ndl3r.github.io/COS10005/wd_assign2/
